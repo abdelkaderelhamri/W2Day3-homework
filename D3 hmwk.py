@@ -11,7 +11,7 @@
 shopping_cart = {} #decleared an empty shopping cart to 
 
 def add_item():
-    """ a function add items to the cart"""
+    """ a function thst adds items to the cart"""
     item = input("what would you like to add?")
     quantity = int(input(f"how many {item} would you like?"))
     
@@ -31,7 +31,7 @@ def remove_item():
     
 
 def show_shopping_cart():
-    """ a function show items in the cart"""
+    """ a function that shows items in the cart"""
     print(f" your cart contains: {shopping_cart}")
     
 while True:
